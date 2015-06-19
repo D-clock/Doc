@@ -1,4 +1,5 @@
 Git-入门篇
+---
 
 - 一篇来自IBM的文章，用图形化的方式去描述整个Git的操作流程，适合初学git的新手阅读
 > * 原文链接 : [http://www.ibm.com/developerworks/cn/devops/d-learn-workings-git/index.html](http://www.ibm.com/developerworks/cn/devops/d-learn-workings-git/index.html)
