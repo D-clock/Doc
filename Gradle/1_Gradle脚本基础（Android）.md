@@ -48,7 +48,7 @@ dependencies {
 apply plugin: 'com.android.application'
 ```
 * 上面这段代码是告诉Gradle要加载一个`com.android.application`插件，在AndroidStudio下普通的module均做这样的声明
-* 如果是library module的，则插件名变成'com.android.library'
+* 如果是library module的，则插件名变成`com.android.library`
 
 ### Manifest and defaultConfig
 
