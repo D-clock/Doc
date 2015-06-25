@@ -6,6 +6,7 @@
 
 第一次接着Gradle，对它做了大致的了解。按照网上普遍的说法：`Gradle是以Groovy语言为基础，面向Java应用为主。基于DSL（领域特定语言）语法的自动化构建工具.`看到这里我依旧还是有点云里雾里的，不过抓住了两个重点：
 > 1.Gradle是一门语言
+
 > 2.Gradle是一个自动化构建工具
 既然单从概念上得不到很好的理解，那么作为学习一门语言和一个工具，只能通过使用来增强概念和功能上的了解了.
 
@@ -35,6 +36,7 @@ Hello world!
 > Project有一个或若干个Task组成，Task由一个或若干个Action组成
 这里再补充说明一下`gradle -q`命令的作用，参数q表示Gradle构建的Quiet模式，用这种模式构建只会看到task中输出的信息，而构建过程中产生的其他信息一律不会在控制台的窗口中输出，
 像平时在AS下编译android moudle时，你会看到Message窗口会输出类似下面这样的构建过程详细信息
+
 ```
 Information:Gradle tasks [:baidumap:assembleDebug]
 :baidumap:preBuild UP-TO-DATE
@@ -71,6 +73,7 @@ Information:0 errors
 Information:0 warnings
 Information:See complete output in console
 ```
+
 这种模式就是与Quiet模式恰好相反的，Gradle中出了Quiet模式外，还有其他几种构建模式，后面再做详细的学习总结。
 
 ## 
