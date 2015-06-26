@@ -1,24 +1,24 @@
-# 2_GradleÓï·¨»ù´¡½âÎö
+# Gradleè¯­æ³•åŸºç¡€è§£æž
 
-ÔÚ´ÓADT×ªÒÆµ½AndroidStudioÏÂ¿ª·¢£¬±ØÈ»»áÓöµ½Gradle½Å±¾´ò°üµÄÎÊÌâ.¿´¶®Ò»¸ö½Å±¾×î»ù±¾µÄÇ°Ìá¾ÍÊÇÁË½âËüµÄÓï·¨£¬ÎÒÔÚ×ªÒÆ¿ª·¢»·¾³µÄ¹ý³ÌÖÐ£¬Ò²¿ªÊ¼½Ó´¥Ñ§Ï°Gradle£¬ÔÚ´Ë×öÁËÒ»Ð©×Ü½á£¬·½±ã×Ô¼º²éÔÄ.
+åœ¨ä»ŽADTè½¬ç§»åˆ°AndroidStudioä¸‹å¼€å‘ï¼Œå¿…ç„¶ä¼šé‡åˆ°Gradleè„šæœ¬æ‰“åŒ…çš„é—®é¢˜.çœ‹æ‡‚ä¸€ä¸ªè„šæœ¬æœ€åŸºæœ¬çš„å‰æå°±æ˜¯äº†è§£å®ƒçš„è¯­æ³•ï¼Œæˆ‘åœ¨è½¬ç§»å¼€å‘çŽ¯å¢ƒçš„è¿‡ç¨‹ä¸­ï¼Œä¹Ÿå¼€å§‹æŽ¥è§¦å­¦ä¹ Gradleï¼Œåœ¨æ­¤åšäº†ä¸€äº›æ€»ç»“ï¼Œæ–¹ä¾¿è‡ªå·±æŸ¥é˜….
 
-## GradleÎªºÎÎï
+## Gradleä¸ºä½•ç‰©
 
-µÚÒ»´Î½Ó×ÅGradle£¬¶ÔËü×öÁË´óÖÂµÄÁË½â¡£°´ÕÕÍøÉÏÆÕ±éµÄËµ·¨£º`GradleÊÇÒÔGroovyÓïÑÔÎª»ù´¡£¬ÃæÏòJavaÓ¦ÓÃÎªÖ÷¡£»ùÓÚDSL£¨ÁìÓòÌØ¶¨ÓïÑÔ£©Óï·¨µÄ×Ô¶¯»¯¹¹½¨¹¤¾ß.`¿´µ½ÕâÀïÎÒÒÀ¾É»¹ÊÇÓÐµãÔÆÀïÎíÀïµÄ£¬²»¹ý×¥×¡ÁËÁ½¸öÖØµã£º
-> 1.GradleÊÇÒ»ÃÅÓïÑÔ
+ç¬¬ä¸€æ¬¡æŽ¥ç€Gradleï¼Œå¯¹å®ƒåšäº†å¤§è‡´çš„äº†è§£ã€‚æŒ‰ç…§ç½‘ä¸Šæ™®éçš„è¯´æ³•ï¼š`Gradleæ˜¯ä»¥Groovyè¯­è¨€ä¸ºåŸºç¡€ï¼Œé¢å‘Javaåº”ç”¨ä¸ºä¸»ã€‚åŸºäºŽDSLï¼ˆé¢†åŸŸç‰¹å®šè¯­è¨€ï¼‰è¯­æ³•çš„è‡ªåŠ¨åŒ–æž„å»ºå·¥å…·.`çœ‹åˆ°è¿™é‡Œæˆ‘ä¾æ—§è¿˜æ˜¯æœ‰ç‚¹äº‘é‡Œé›¾é‡Œçš„ï¼Œä¸è¿‡æŠ“ä½äº†ä¸¤ä¸ªé‡ç‚¹ï¼š
+> 1.Gradleæ˜¯ä¸€é—¨è¯­è¨€
+> 
+> 2.Gradleæ˜¯ä¸€ä¸ªè‡ªåŠ¨åŒ–æž„å»ºå·¥å…·
+æ—¢ç„¶å•ä»Žæ¦‚å¿µä¸Šå¾—ä¸åˆ°å¾ˆå¥½çš„ç†è§£ï¼Œé‚£ä¹ˆä½œä¸ºå­¦ä¹ ä¸€é—¨è¯­è¨€å’Œä¸€ä¸ªå·¥å…·ï¼Œåªèƒ½é€šè¿‡ä½¿ç”¨æ¥å¢žå¼ºæ¦‚å¿µå’ŒåŠŸèƒ½ä¸Šçš„äº†è§£äº†.
 
-> 2.GradleÊÇÒ»¸ö×Ô¶¯»¯¹¹½¨¹¤¾ß
-¼ÈÈ»µ¥´Ó¸ÅÄîÉÏµÃ²»µ½ºÜºÃµÄÀí½â£¬ÄÇÃ´×÷ÎªÑ§Ï°Ò»ÃÅÓïÑÔºÍÒ»¸ö¹¤¾ß£¬Ö»ÄÜÍ¨¹ýÊ¹ÓÃÀ´ÔöÇ¿¸ÅÄîºÍ¹¦ÄÜÉÏµÄÁË½âÁË.
+## Projectså’Œtasks
 
-## ProjectsºÍtasks
-
-GradleÀïÃæµÄÈÎºÎ¶«Î÷¶¼ÊÇ»ùÓÚ`Projects(ÏîÄ¿)`ºÍ`Tasks(ÈÎÎñ)`ÕâÁ½¸ö¸ÅÄî£¬»ùÓÚÕâÁ½¸ö¸ÅÄî£¬Gradle¹Ù·½·Å³öµÄÖ¸µ¼ÊÖ²áÊÇÕâÃ´ÃèÊöµÄ£º
-* Ã¿Ò»¸ö¹¹½¨¶¼ÊÇÓÉÒ»¸ö»ò¶à¸öprojects¹¹³ÉµÄ.Ò»¸öprojectµ½µ×´ú±íÊ²Ã´ÒÀÀµÓÚÄãÏëÓÃGradle×öÊ²Ã´.¾Ù¸öÀý×Ó,Ò»¸öproject¿ÉÒÔ´ú±íÒ»¸öJAR»òÕßÒ»¸öÍøÒ³Ó¦ÓÃ.ËüÒ²¿ÉÄÜ´ú±íÒ»¸ö·¢²¼µÄ ZIPÑ¹Ëõ°ü,Õâ¸öZIP¿ÉÄÜÊÇÓÉÐí¶àÆäËûÏîÄ¿µÄJARs¹¹³ÉµÄ.µ«ÊÇÒ»¸öproject²»Ò»¶¨·ÇÒª´ú±í±»¹¹½¨µÄÄ³¸ö¶«Î÷.Ëü¿ÉÒÔ´ú±íÒ»¼þ**Òª×öµÄÊÂ,±ÈÈç²¿ÊðÄãµÄÓ¦ÓÃ.
-* Ã¿Ò»¸öprojectÊÇÓÉÒ»¸ö»ò¶à¸ötasks¹¹³ÉµÄ.Ò»¸ötask´ú±íÒ»Ð©¸ü¼ÓÏ¸»¯µÄ¹¹½¨.¿ÉÄÜÊÇ±àÒëÒ»Ð©classes,´´½¨Ò»¸öJAR,Éú³Éjavadoc,»òÕßÉú³ÉÄ³¸öÄ¿Â¼µÄÑ¹ËõÎÄ¼þ.
-ÔÚAndroidStudio¹¹½¨Éú³ÉÒ»¸öapkµÄ°²×°°ü£¬Ëü¾ÍÒªÒÀÀµÓÚbuild.gradle½Å±¾½øÐÐ¹¹½¨.´ËÊ±`Éú³Éapk°ü`ÕâÑùÒ»¼þÊÂÇé¾Í¿ÉÒÔÀí½â³ÉÎªÒ»¸öProject£¨Òª×öÒ»¼þÊ²Ã´ÊÂ£©£¬¶øÉú³Éapk°üÖ»ÊÇÒ»¸ö±È½Ï´óÒ»Í³µÄ¸ÅÄî.´ò°üµÄ¹ý³ÌÐèÒª½øÐÐ¸÷ÖÖ¸÷ÑùµÄÅäÖÃ£¬ÀýÈçÅäÖÃ°æ±¾ºÅ£¬×îµÍ¼æÈÝAndroid¼¸µÄÆ½Ì¨£¬´ò°üÇ©ÃûµÈ.ÕâÐ©Ïàµ±ÓÚ`Éú³Éapk°ü`Õâ¸öProjectsµÄÒ»¸ö¸ö¾ßÌåµÄ×Ó²½Öè£¬Ò²¾ÍÊÇGradleÖÐµÄTasks.
+Gradleé‡Œé¢çš„ä»»ä½•ä¸œè¥¿éƒ½æ˜¯åŸºäºŽ`Projects(é¡¹ç›®)`å’Œ`Tasks(ä»»åŠ¡)`è¿™ä¸¤ä¸ªæ¦‚å¿µï¼ŒåŸºäºŽè¿™ä¸¤ä¸ªæ¦‚å¿µï¼ŒGradleå®˜æ–¹æ”¾å‡ºçš„æŒ‡å¯¼æ‰‹å†Œæ˜¯è¿™ä¹ˆæè¿°çš„ï¼š
+* æ¯ä¸€ä¸ªæž„å»ºéƒ½æ˜¯ç”±ä¸€ä¸ªæˆ–å¤šä¸ªprojectsæž„æˆçš„.ä¸€ä¸ªprojectåˆ°åº•ä»£è¡¨ä»€ä¹ˆä¾èµ–äºŽä½ æƒ³ç”¨Gradleåšä»€ä¹ˆ.ä¸¾ä¸ªä¾‹å­,ä¸€ä¸ªprojectå¯ä»¥ä»£è¡¨ä¸€ä¸ªJARæˆ–è€…ä¸€ä¸ªç½‘é¡µåº”ç”¨.å®ƒä¹Ÿå¯èƒ½ä»£è¡¨ä¸€ä¸ªå‘å¸ƒçš„ ZIPåŽ‹ç¼©åŒ…,è¿™ä¸ªZIPå¯èƒ½æ˜¯ç”±è®¸å¤šå…¶ä»–é¡¹ç›®çš„JARsæž„æˆçš„.ä½†æ˜¯ä¸€ä¸ªprojectä¸ä¸€å®šéžè¦ä»£è¡¨è¢«æž„å»ºçš„æŸä¸ªä¸œè¥¿.å®ƒå¯ä»¥ä»£è¡¨ä¸€ä»¶**è¦åšçš„äº‹,æ¯”å¦‚éƒ¨ç½²ä½ çš„åº”ç”¨.
+* æ¯ä¸€ä¸ªprojectæ˜¯ç”±ä¸€ä¸ªæˆ–å¤šä¸ªtasksæž„æˆçš„.ä¸€ä¸ªtaskä»£è¡¨ä¸€äº›æ›´åŠ ç»†åŒ–çš„æž„å»º.å¯èƒ½æ˜¯ç¼–è¯‘ä¸€äº›classes,åˆ›å»ºä¸€ä¸ªJAR,ç”Ÿæˆjavadoc,æˆ–è€…ç”ŸæˆæŸä¸ªç›®å½•çš„åŽ‹ç¼©æ–‡ä»¶.
+åœ¨AndroidStudioæž„å»ºç”Ÿæˆä¸€ä¸ªapkçš„å®‰è£…åŒ…ï¼Œå®ƒå°±è¦ä¾èµ–äºŽbuild.gradleè„šæœ¬è¿›è¡Œæž„å»º.æ­¤æ—¶`ç”ŸæˆapkåŒ…`è¿™æ ·ä¸€ä»¶äº‹æƒ…å°±å¯ä»¥ç†è§£æˆä¸ºä¸€ä¸ªProjectï¼ˆè¦åšä¸€ä»¶ä»€ä¹ˆäº‹ï¼‰ï¼Œè€Œç”ŸæˆapkåŒ…åªæ˜¯ä¸€ä¸ªæ¯”è¾ƒå¤§ä¸€ç»Ÿçš„æ¦‚å¿µ.æ‰“åŒ…çš„è¿‡ç¨‹éœ€è¦è¿›è¡Œå„ç§å„æ ·çš„é…ç½®ï¼Œä¾‹å¦‚é…ç½®ç‰ˆæœ¬å·ï¼Œæœ€ä½Žå…¼å®¹Androidå‡ çš„å¹³å°ï¼Œæ‰“åŒ…ç­¾åç­‰.è¿™äº›ç›¸å½“äºŽ`ç”ŸæˆapkåŒ…`è¿™ä¸ªProjectsçš„ä¸€ä¸ªä¸ªå…·ä½“çš„å­æ­¥éª¤ï¼Œä¹Ÿå°±æ˜¯Gradleä¸­çš„Tasks.
 
 ## Hello world
-ÁË½â´ó¸ÅµÄÒ»Ð©»ù±¾¸ÅÄîÖ®ºó£¬×îÖØÒªµÄ»¹ÊÇ¿ªÊ¼ÏÂÊÖ´òÂëÊµÕ½£¬´´½¨×Ô¼ºµÄµÚÒ»¸öGradle¹¹½¨½Å±¾build.gradle
+äº†è§£å¤§æ¦‚çš„ä¸€äº›åŸºæœ¬æ¦‚å¿µä¹‹åŽï¼Œæœ€é‡è¦çš„è¿˜æ˜¯å¼€å§‹ä¸‹æ‰‹æ‰“ç å®žæˆ˜ï¼Œåˆ›å»ºè‡ªå·±çš„ç¬¬ä¸€ä¸ªGradleæž„å»ºè„šæœ¬build.gradle
 ```groovy
 task hello {
     doLast {
@@ -26,16 +26,16 @@ task hello {
     }
 }
 ```
-ÔÚÃüÁîÐÐÀï,½øÈë½Å±¾ËùÔÚµÄÎÄ¼þ¼ÐÈ»ºóÊäÈë`gradle -q hello`À´Ö´ÐÐ¹¹½¨½Å±¾£¬»áÔÚ¿ØÖÆÌ¨´°¿ÚµÃµ½ÈçÏÂÊä³ö
+åœ¨å‘½ä»¤è¡Œé‡Œ,è¿›å…¥è„šæœ¬æ‰€åœ¨çš„æ–‡ä»¶å¤¹ç„¶åŽè¾“å…¥`gradle -q hello`æ¥æ‰§è¡Œæž„å»ºè„šæœ¬ï¼Œä¼šåœ¨æŽ§åˆ¶å°çª—å£å¾—åˆ°å¦‚ä¸‹è¾“å‡º
 ```
 > gradle -q hello
 Hello world!
 ```
-Õâ¸öÕû¸öbuild.gradleµÄ¹¹½¨½Å±¾¶¨ÒåÁËÒ»¸ö¶ÀÁ¢µÄtask£¬½Ð×öhello£¬²¢ÇÒ¼ÓÈëÁËÒ»¸öaction.µ±ÄãÔËÐÐ`gradle hello`,GradleÖ´ÐÐ½Ð×öhelloµÄtask,Ò²¾ÍÊÇÖ´ÐÐÁËÄãËùÌá¹©µÄaction.Õâ¸ö actionÊÇÒ»¸ö°üº¬ÁËÒ»Ð©Groovy´úÂëµÄ±Õ°ü£¬ÉÏÃæ½Ð×öhelloµÄtask¾ÍÊÇÖ´ÐÐÁËÒ»¸ödoLastµÄaction£¬Õâ¸öaction¾ÍÊÇÔÚ¿ØÖÆÌ¨ÖÐÊä³ö`hello world`,gradleÌá¹©ÁËdoLastºÍdoFirstÕâÁ½ÖÖaction.
-´ÓtaskµÄ×é³ÉÉÏ¿´£¬ÆäÊµtask±Õ°üµÄÄÚ²¿ÊÇ±»»®·Ö³ÉÎªÒ»¸ö¸öµÄaction×é³É.µ½´Ë£¬ÎÒÃÇÒ²¿ÉÒÔ×öÒ»ÏÂÈçÏÂ¹ØÏµÊýÀí£º
-> ProjectÓÐÒ»¸ö»òÈô¸É¸öTask×é³É£¬TaskÓÉÒ»¸ö»òÈô¸É¸öAction×é³É
-ÕâÀïÔÙ²¹³äËµÃ÷Ò»ÏÂ`gradle -q`ÃüÁîµÄ×÷ÓÃ£¬²ÎÊýq±íÊ¾Gradle¹¹½¨µÄQuietÄ£Ê½£¬ÓÃÕâÖÖÄ£Ê½¹¹½¨Ö»»á¿´µ½taskÖÐÊä³öµÄÐÅÏ¢£¬¶ø¹¹½¨¹ý³ÌÖÐ²úÉúµÄÆäËûÐÅÏ¢Ò»ÂÉ²»»áÔÚ¿ØÖÆÌ¨µÄ´°¿ÚÖÐÊä³ö£¬
-ÏñÆ½Ê±ÔÚASÏÂ±àÒëandroid moudleÊ±£¬Äã»á¿´µ½Message´°¿Ú»áÊä³öÀàËÆÏÂÃæÕâÑùµÄ¹¹½¨¹ý³ÌÏêÏ¸ÐÅÏ¢
+è¿™ä¸ªæ•´ä¸ªbuild.gradleçš„æž„å»ºè„šæœ¬å®šä¹‰äº†ä¸€ä¸ªç‹¬ç«‹çš„taskï¼Œå«åšhelloï¼Œå¹¶ä¸”åŠ å…¥äº†ä¸€ä¸ªaction.å½“ä½ è¿è¡Œ`gradle hello`,Gradleæ‰§è¡Œå«åšhelloçš„task,ä¹Ÿå°±æ˜¯æ‰§è¡Œäº†ä½ æ‰€æä¾›çš„action.è¿™ä¸ª actionæ˜¯ä¸€ä¸ªåŒ…å«äº†ä¸€äº›Groovyä»£ç çš„é—­åŒ…ï¼Œä¸Šé¢å«åšhelloçš„taskå°±æ˜¯æ‰§è¡Œäº†ä¸€ä¸ªdoLastçš„actionï¼Œè¿™ä¸ªactionå°±æ˜¯åœ¨æŽ§åˆ¶å°ä¸­è¾“å‡º`hello world`,gradleæä¾›äº†doLastå’ŒdoFirstè¿™ä¸¤ç§action.
+ä»Žtaskçš„ç»„æˆä¸Šçœ‹ï¼Œå…¶å®žtaské—­åŒ…çš„å†…éƒ¨æ˜¯è¢«åˆ’åˆ†æˆä¸ºä¸€ä¸ªä¸ªçš„actionç»„æˆ.åˆ°æ­¤ï¼Œæˆ‘ä»¬ä¹Ÿå¯ä»¥åšä¸€ä¸‹å¦‚ä¸‹å…³ç³»æ•°ç†ï¼š
+> Projectæœ‰ä¸€ä¸ªæˆ–è‹¥å¹²ä¸ªTaskç»„æˆï¼ŒTaskç”±ä¸€ä¸ªæˆ–è‹¥å¹²ä¸ªActionç»„æˆ
+è¿™é‡Œå†è¡¥å……è¯´æ˜Žä¸€ä¸‹`gradle -q`å‘½ä»¤çš„ä½œç”¨ï¼Œå‚æ•°qè¡¨ç¤ºGradleæž„å»ºçš„Quietæ¨¡å¼ï¼Œç”¨è¿™ç§æ¨¡å¼æž„å»ºåªä¼šçœ‹åˆ°taskä¸­è¾“å‡ºçš„ä¿¡æ¯ï¼Œè€Œæž„å»ºè¿‡ç¨‹ä¸­äº§ç”Ÿçš„å…¶ä»–ä¿¡æ¯ä¸€å¾‹ä¸ä¼šåœ¨æŽ§åˆ¶å°çš„çª—å£ä¸­è¾“å‡ºï¼Œ
+åƒå¹³æ—¶åœ¨ASä¸‹ç¼–è¯‘android moudleæ—¶ï¼Œä½ ä¼šçœ‹åˆ°Messageçª—å£ä¼šè¾“å‡ºç±»ä¼¼ä¸‹é¢è¿™æ ·çš„æž„å»ºè¿‡ç¨‹è¯¦ç»†ä¿¡æ¯
 
 ```
 Information:Gradle tasks [:baidumap:assembleDebug]
@@ -74,6 +74,6 @@ Information:0 warnings
 Information:See complete output in console
 ```
 
-ÕâÖÖÄ£Ê½¾ÍÊÇÓëQuietÄ£Ê½Ç¡ºÃÏà·´µÄ£¬GradleÖÐ³öÁËQuietÄ£Ê½Íâ£¬»¹ÓÐÆäËû¼¸ÖÖ¹¹½¨Ä£Ê½£¬ºóÃæÔÙ×öÏêÏ¸µÄÑ§Ï°×Ü½á¡£
+è¿™ç§æ¨¡å¼å°±æ˜¯ä¸ŽQuietæ¨¡å¼æ°å¥½ç›¸åçš„ï¼ŒGradleä¸­å‡ºäº†Quietæ¨¡å¼å¤–ï¼Œè¿˜æœ‰å…¶ä»–å‡ ç§æž„å»ºæ¨¡å¼ï¼ŒåŽé¢å†åšè¯¦ç»†çš„å­¦ä¹ æ€»ç»“ã€‚
 
 ## 
