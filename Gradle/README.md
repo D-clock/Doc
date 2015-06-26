@@ -17,4 +17,4 @@
 |----------|-------------|
 |	[1_Gradle脚本基础（Android）.md](1_Gradle脚本基础（Android）.md)	|	2015-06-19	|
 |	[2_Gradle语法基础解析.md](2_Gradle语法基础解析.md)	|	继续更新	|
-|	[3_ProGuard基础语法和打包配置.md](3_ProGuard基础语法和打包配置.md)	|	继续更新	|
+|	[3_ProGuard基础语法和打包配置.md](3_ProGuard基础语法和打包配置.md)	|	2015-06-27	|
