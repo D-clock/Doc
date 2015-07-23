@@ -15,6 +15,6 @@
 
 |	笔记名	|	完成日期	|
 |----------|-------------|
-|	[1_Gradle脚本基础（Android）.md](1_Gradle脚本基础（Android）.md)	|	2015-06-19	|
-|	[2_Gradle语法基础解析.md](2_Gradle语法基础解析.md)	|	2015-06-28	|
-|	[3_ProGuard基础语法和打包配置.md](3_ProGuard基础语法和打包配置.md)	|	2015-06-27	|
+|	[1_Gradle脚本基础（Android）](1_Gradle脚本基础（Android）.md)	|	2015-06-19	|
+|	[2_Gradle语法基础解析](2_Gradle语法基础解析.md)	|	2015-06-28	|
+|	[3_1_ProGuard基础语法和打包配置](3_1_ProGuard基础语法和打包配置.md)	|	2015-06-27	|
