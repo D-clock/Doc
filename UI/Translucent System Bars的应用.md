@@ -2,7 +2,7 @@
 
 关于Translucent System Bars想必很多朋友既熟悉又陌生。熟悉是大家经常能够见到，陌生是不知道这种效果到底叫什么。首先，先来一张网易新闻客户端的效果图
 
-![网易新闻客户端效果图](http://d.hiphotos.baidu.com/image/pic/item/8435e5dde71190ef95dd06c1c81b9d16fdfa608e.jpg)
+![网易新闻客户端效果图](http://d.hiphotos.baidu.com/image/pic/item/b90e7bec54e736d1e4af09169d504fc2d5626974.jpg)
 
 有没有发现顶部的Notification Bar和整个UI界面融成一体了，哈哈，用过IOS的童鞋，肯定对这种效果很熟悉。其实，从Android 4.4（KitKat）开始，系统也支持了这种效果，这可以让app和系统更加一体化。用户再也不用纠结那个黑乎乎的Notification Bar了。
 
@@ -84,7 +84,7 @@
 
 > **注意：只有在设置了Activity根布局背景的情况下**，顶部的NotificationBar才回和你的Activity融成一体，形成Translucent System Bars的效果。Demo工程最后运行的效果图如下
 
-![Demo效果图](http://a.hiphotos.baidu.com/image/pic/item/b999a9014c086e06650eab5504087bf40ad1cb0e.jpg)
+![Demo效果图](http://d.hiphotos.baidu.com/image/pic/item/79f0f736afc3793149100337edc4b74543a911b7.jpg)
 
 ## 误区解释
 
