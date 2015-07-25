@@ -1,16 +1,25 @@
-# Doc
-此git仓库是我平常开发的一些实践总结，如果有错误，欢迎大家指出。更多详情请查看我在CSDN上写的博客。
+# 简介
+
+我自己平常的一些开发总结，当前主要都是Android这方面的，日后会逐步加入其他方面的开发。
 
 ## 我的博客
 
 这是我在CSDN上的博客 [http://blog.csdn.net/d_clock](http://blog.csdn.net/d_clock)
 
-## 目录结构
+## 当前目录结构
 
-* 当前文档只涉及Gradle和IM开发两部分;
-* 下一步准备加入netty和git的相关资料;
-* 具体的资料信息以开源git仓库代码、正版合法的电子书和我的博客总结为主;
+|	目录	|	简介		|
+|-------|----------|
+|	[Git](Git/)	|	git内部实现的原理，基本操作流程，以及常见问题和解决方案的笔记	|
+|	[Gradle](Gradle/)	|	Gradle基础语法，和Android如何使用Gradle进行打包，其中也涉及到ProGuard混淆的一些笔记	|
+|	[IM](IM/)	|	我是从事的工作基本都跟IM打交道，记录一些知识要点，也在寻找更好的移动平台IM通信解决方案	|
+|	[Tools](Tools/)	|	开发过程中遇到一些不错的工具软件，当前主要还是Android为主，日后加入更多其他开发的工具	|
+|	[UI](UI/)	|	一些不错的UI效果也是值得记录的，毕竟每个用户对app都是颜控，哈哈	|
+
+
+>**持续更新....**
+
 
 ## 更好的建议
 
-如果你有什么更好的建议或意见，请在[issues page](https://github.com/D-clock/Doc/issues) 提出
+如果你有好的建议或意见，请移步到[issues page](https://github.com/D-clock/Doc/issues) 或者给我的Gmail邮箱[1084991652clock@gmail.com](1084991652clock@gmail.com)来封邮件吧..
