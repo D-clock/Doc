@@ -19,7 +19,6 @@
 
 >**持续更新....**
 
-
 ## 更好的建议
 
-如果你有好的建议或意见，请移步到[issues page](https://github.com/D-clock/Doc/issues) 或者给我的Gmail邮箱[1084991652clock@gmail.com](1084991652clock@gmail.com)来封邮件吧..
+如果你有好的建议或意见，请移步到[issues page](https://github.com/D-clock/Doc/issues) 或者给我的Gmail邮箱1084991652clock@gmail.com来封邮件吧..
