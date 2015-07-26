@@ -5,6 +5,6 @@
 
 |	效果名	|	笔记名	|	效果		|
 |-----|-------|-------|
-|	Translucent System Bars|	[Translucent System Bars的应用.md](Translucent System Bars的应用.md)	|	![aa](http://d.hiphotos.baidu.com/image/pic/item/b90e7bec54e736d1e4af09169d504fc2d5626974.jpg)	|
+|	Translucent System Bars|	[Translucent System Bars的应用.md](Translucent System Bars的应用.md)	|	![netease](http://d.hiphotos.baidu.com/image/pic/item/b90e7bec54e736d1e4af09169d504fc2d5626974.jpg)	|
 
 > **持续更新....**
