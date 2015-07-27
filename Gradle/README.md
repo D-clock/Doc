@@ -20,7 +20,7 @@
 |	[ProGuard基础语法和打包配置](3_ProGuard基础语法和打包配置.md)	|	2015-06-27	|
 |	[AndroidStudio下ProGuard混淆打包](4_AndroidStudio下ProGuard混淆打包.md)	|	2015-07-23	|
 |	[Gradle多渠道和自动化打包（基础篇）](5_Gradle多渠道和自动化打包（基础篇）.md)|	2015-07-26	|
-|	[Gradle多渠道和自动化打包（深入篇）](6_Gradle多渠道和自动化打包（深入篇）.md)|	...	|
+|	[Gradle多渠道和自动化打包（深入篇）](6_Gradle多渠道和自动化打包（深入篇）.md)|	2015-07-27	|
 
 ## 关注
 
