@@ -35,8 +35,6 @@
         <item name="android:windowTranslucentStatus">true</item>
         <!-- 把导航栏设置为透明化状态 -->
         <item name="android:windowTranslucentNavigation">true</item>
-		<!-- 不然当前配置影响了你Activity顶部的布局，避免某些按钮和你的NotificationBar重叠了 -->
-        <item name="android:fitsSystemWindows">true</item>
     </style>
 
 </resources>
@@ -52,11 +50,10 @@
         <!-- Customize your theme here. -->
         <!-- 取消状态栏透明化的设置 -->
         <item name="android:windowTranslucentStatus">false</item>
-        <!-- Navigation Bar -->
+        <!-- 设置导航栏透明 -->
         <item name="android:windowTranslucentNavigation">true</item>
-		<!-- 把状态栏的颜色设置成为透明的 -->
+		<!-- 把通知栏的颜色设置成为透明的 -->
         <item name="android:statusBarColor">@android:color/transparent</item>
-        <item name="android:fitsSystemWindows">true</item>
     </style>
 
 </resources>
@@ -76,6 +73,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+	<!-- 不然当前配置影响了你Activity顶部的布局，避免某些按钮和你的NotificationBar重叠了 -->
+	android:fitsSystemWindows="true"
     tools:context=".MainActivity">
 
 </RelativeLayout>
@@ -107,6 +106,11 @@ You can now make the system bars partially translucent with new themes, Theme.Ho
 If you're creating a custom theme, set one of these themes as the parent theme or include the windowTranslucentNavigation and windowTranslucentStatus style properties in your theme.
 
 ```
+
+还有一个错误的地方在，很多朋友喜欢把**android:fitsSystemWindows="true"**这个属性的配置，提取放到style里面去。这种方式会产生一个UI上的BUG，就是使得配置了改style的Activity打印的Toast都出现错位问题，有兴趣的可以试试。Google工程师给出的建议是：
+
+> **老老实实去布局的xml文件里面配置**
+
 
 最后，欢迎看完我这篇罗里吧嗦的文章，如果需要Demo的源码，请移步到
 
