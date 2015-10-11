@@ -52,6 +52,3 @@
 **使用前提**：无需root
 
 **下载链接**：[GooglePlay上的](https://play.google.com/store/apps/details?id=net.rgruet.android.g3watchdog&hl=zh_CN)、[第三方应用商店的](http://www.wandoujia.com/apps/net.rgruet.android.g3watchdog)
-
-
-**不定期继续更新....**
