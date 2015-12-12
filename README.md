@@ -10,6 +10,7 @@
 
 |	目录	|	简介		|
 |-------|----------|
+|	[Android多进程](Android_MultiProcess/)	|	Android进程通信间的通信和保活处理专题	|
 |	[Git](Git/)	|	git内部实现的原理，基本操作流程，以及常见问题和解决方案的笔记	|
 |	[Gradle](Gradle/)	|	Gradle基础语法，和Android如何使用Gradle进行打包，其中也涉及到ProGuard混淆的一些笔记	|
 |	[IM](IM/)	|	我是从事的工作基本都跟IM打交道，记录一些知识要点，也在寻找更好的移动平台IM通信解决方案	|
