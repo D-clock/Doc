@@ -11,13 +11,3 @@
 |AndroidStudio插件工具| [AndroidStudio插件系列](AndroidStudio插件系列.md)|
 |Android反编译工具| [Android反编译工具系列](Android反编译工具系列.md)|
 
-## 关注
-
-如果你对我分享的**辅助工具系列笔记**感兴趣，欢迎在右上角**star和watch**一下。这样，每次更新内容都会通知到你注册Github的邮箱里面。
-
-## 捐赠
-
-如果你的经济比较宽裕，我的笔记又刚好让你很满意。可以扫一扫我支付宝的二维码，请我喝杯牛奶、吃点水果吧，这样我会更加热情的去分享。最后，感谢有你的支持，祝大家生活愉快。
-
-![http://a.hiphotos.baidu.com/image/pic/item/0eb30f2442a7d93398d54273ab4bd11373f001b4.jpg](http://a.hiphotos.baidu.com/image/pic/item/0eb30f2442a7d93398d54273ab4bd11373f001b4.jpg)
-
