@@ -10,14 +10,11 @@
 
 |	目录	|	简介		|
 |-------|----------|
-|	[Android多进程](Android_MultiProcess/)	|	Android进程通信间的通信和保活处理专题	|
-|	[Git](Git/)	|	git内部实现的原理，基本操作流程，以及常见问题和解决方案的笔记	|
-|	[Gradle](Gradle/)	|	Gradle基础语法，和Android如何使用Gradle进行打包，其中也涉及到ProGuard混淆的一些笔记	|
-|	[IM](IM/)	|	我是从事的工作基本都跟IM打交道，记录一些知识要点，也在寻找更好的移动平台IM通信解决方案	|
-|	[Tools](Tools/)	|	开发过程中遇到一些不错的工具软件，当前主要还是Android为主，日后加入更多其他开发的工具	|
-|	[UI](UI/)	|	一些不错的UI效果也是值得记录的，毕竟每个用户对app都是颜控，哈哈	|
-|	[Peformance](Peformance/)	|	移动平台的性能分析是很重要的，会分析app的性能对想变得牛逼的开发人员至关重要	|
-|	[JavaWeb](JavaWeb/)	|	前后端都了解，看问题更全面	|
+|	[Android](Android/)	|	Android开发知识的汇总	|
+|	[Code](Code/)	|	打代码也是有讲究的	|
+|	[Git手册](Git手册/)	|	Git使用的一些汇总	|
+|	[IM](IM/)	|	对IM很感兴趣，不断的学习汇总	|
+|	[JavaWeb](JavaWeb/)	|	一直主攻Android，想慢慢接触后端的知识（算菜鸟笔记吧）	|
 
 
 >**持续更新....**
