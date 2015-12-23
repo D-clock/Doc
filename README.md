@@ -6,7 +6,7 @@
 
 这是我在CSDN上的博客 [http://blog.csdn.net/d_clock](http://blog.csdn.net/d_clock)
 
-## 当前目录结构
+## 目录
 
 |	目录	|	简介		|
 |-------|----------|
