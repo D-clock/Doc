@@ -12,7 +12,7 @@
 |-------|----------|
 |	[Android](Android/)	|	Android开发知识的汇总	|
 |	[Code](Code/)	|	打代码也是有讲究的	|
-|	[Git手册](Git手册/)	|	Git使用的一些汇总	|
+|	[Git](Git/)	|	Git使用的一些汇总	|
 |	[IM](IM/)	|	对IM很感兴趣，不断的学习汇总	|
 |	[JavaWeb](JavaWeb/)	|	一直主攻Android，想慢慢接触后端的知识（算菜鸟笔记吧）	|
 
