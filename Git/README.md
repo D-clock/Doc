@@ -8,9 +8,12 @@
 - [常用的Git命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
 - [Git如何忽略已经被提交的文件](http://segmentfault.com/q/1010000000430426)
 
+
 **电子书**
 
 - [Pro Git简体中文版在线电子书](http://iissnan.com/progit/)
+- [Git学习圣经《Pro Git 2nd》](http://git-scm.com/book/zh/v2)
+
 
 **原理解析**
 
