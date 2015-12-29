@@ -7,6 +7,9 @@
 
 - [常用的Git命令清单](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
 - [Git如何忽略已经被提交的文件](http://segmentfault.com/q/1010000000430426)
+- [HTTPS和SSH方式的区别和使用](http://blog.csdn.net/d_clock/article/details/43762763)
+- [Submodule的应用（一）](http://blog.csdn.net/d_clock/article/details/43602699)
+- [Submodule的应用（二）](http://blog.csdn.net/d_clock/article/details/43730449)
 
 
 **电子书**
@@ -18,3 +21,8 @@
 **原理解析**
 
 - [Git的工作方式和原理](http://www.ibm.com/developerworks/cn/devops/d-learn-workings-git/index.html)
+
+
+**疑难杂症处理方案**
+
+- [Windows环境TortosieGit安装后文件状态图标不能正常显示](http://blog.csdn.net/d_clock/article/details/43611421)

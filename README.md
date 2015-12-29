@@ -4,7 +4,7 @@
 
 ## 我的博客
 
-这是我在CSDN上的博客 [http://blog.csdn.net/d_clock](http://blog.csdn.net/d_clock)
+ [http://blog.csdn.net/d_clock](http://blog.csdn.net/d_clock)
 
 ## 目录
 
