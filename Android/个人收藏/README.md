@@ -7,3 +7,8 @@
 **API说明**
 
 - [Android develop tricks——整理自国外的一些Blog](http://blog.csdn.net/eclipsexys/article/details/45190921)
+
+
+**彩蛋**
+
+- [微信里面的彩蛋](https://gist.github.com/wong2/0b815c4addeec04f3553)
