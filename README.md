@@ -2,10 +2,6 @@
 
 自己写了一些平日里的开发总结，也把一些很难得的文章链接收藏进来。
 
-## 我的博客
-
- [http://blog.csdn.net/d_clock](http://blog.csdn.net/d_clock)
-
 ## 目录
 
 |	目录	|	简介		|
@@ -21,9 +17,13 @@
 
 如果你有好的建议或意见，请移步到[issues page](https://github.com/D-clock/Doc/issues) 或者给我的Gmail邮箱1084991652clock@gmail.com来封邮件吧..
 
-## 关注
+## 我的博客
 
-如果你对我分享的内容感兴趣，欢迎在右上角**star和watch**一下。这样，每次更新内容都会通知到你注册Github的邮箱里面。也可以关注我的新浪微博：http://weibo.com/u/2480694892 (**更多关于Android和服务器开发的知识也将在微博中更新**)
+ [http://blog.csdn.net/d_clock](http://blog.csdn.net/d_clock)
+
+## 我的微博
+
+![weibo](http://f.hiphotos.baidu.com/image/pic/item/5366d0160924ab186240372432fae6cd7b890b4b.jpg)
 
 ## VPN
 
