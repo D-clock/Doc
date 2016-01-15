@@ -7,10 +7,12 @@
 |	目录	|	简介		|
 |-------|----------|
 |	[Android](Android/)	|	Android开发知识的汇总	|
+|	[Chrome](Chrome/)	|	Chrome死忠粉一枚	|
 |	[Code](Code/)	|	打代码也是有讲究的	|
 |	[Git](Git/)	|	Git使用的一些汇总	|
 |	[IM](IM/)	|	对IM很感兴趣，不断的学习汇总	|
 |	[JavaWeb](JavaWeb/)	|	一直主攻Android，想慢慢接触后端的知识（算菜鸟笔记吧）	|
+|	[Team](Team/)	|	关注一些团队协作的经验，站在巨人肩膀上摘苹果...	|
 
 
 ## 更好的建议
