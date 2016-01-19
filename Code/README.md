@@ -12,3 +12,9 @@
 
 - [如何做客户端功能模块的设计](http://mtydev.net/?p=82)
 - [MVC，MVP和MVVM 的图示](http://www.ruanyifeng.com/blog/2015/02/mvcmvp_mvvm.html)
+
+## 重构
+
+- [关于烂代码的那些事（上）](http://blog.2baxb.me/archives/1343)
+- [关于烂代码的那些事（中）](http://blog.2baxb.me/archives/1378)
+- [关于烂代码的那些事（下）](http://blog.2baxb.me/archives/1499)
