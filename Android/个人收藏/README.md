@@ -6,14 +6,12 @@
 
 - [Android L & M：巨人的进击 —— Android生态的破与立](http://yq.aliyun.com/articles/2324)
 
-
-
 ## 热门话题
 
 - [知乎：Android开发，开始一个项目前，做好哪些准备可以事半功倍？](https://www.zhihu.com/question/37433825)
 - [知乎：Android开发中，有哪些坑需要注意？](https://www.zhihu.com/question/27818921)
 
-## 杂七杂八的
+## ADB（Android Debug Bridge）
 
-- [Android develop tricks——整理自国外的一些Blog](http://blog.csdn.net/eclipsexys/article/details/45190921)
-- [微信里面的彩蛋](https://gist.github.com/wong2/0b815c4addeec04f3553)
+- [adb操作命令文档（英文版）](http://adbshell.com/)
+- [Android 开发中常用 ADB 命令总结](http://t.cn/Rb35Ek7)
