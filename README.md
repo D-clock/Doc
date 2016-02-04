@@ -31,7 +31,7 @@
 
 ## 我的博客
 
- [http://blog.csdn.net/d_clock](http://blog.csdn.net/d_clock)
+http://www.jianshu.com/users/ec95b5891948/latest_articles
 
 ## 我的微博
 
