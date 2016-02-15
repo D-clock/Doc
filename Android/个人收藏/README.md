@@ -2,14 +2,17 @@
 
 收藏一些觉得丢了可惜的文章，自己偶尔可以回来翻翻看看...
 
+## 热门话题
+
+- [知乎：有必要研究安卓源码吗？](https://www.zhihu.com/question/40126698/answer/85384588)
+- [知乎：Android开发，开始一个项目前，做好哪些准备可以事半功倍？](https://www.zhihu.com/question/37433825)
+- [知乎：Android开发中，有哪些坑需要注意？](https://www.zhihu.com/question/27818921)
+
+
 ## Android新特性
 
 - [Android L & M：巨人的进击 —— Android生态的破与立](http://yq.aliyun.com/articles/2324)
 
-## 热门话题
-
-- [知乎：Android开发，开始一个项目前，做好哪些准备可以事半功倍？](https://www.zhihu.com/question/37433825)
-- [知乎：Android开发中，有哪些坑需要注意？](https://www.zhihu.com/question/27818921)
 
 ## ADB（Android Debug Bridge）
 
