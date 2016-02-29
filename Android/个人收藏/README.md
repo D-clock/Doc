@@ -7,6 +7,7 @@
 - [知乎：有必要研究安卓源码吗？](https://www.zhihu.com/question/40126698/answer/85384588)
 - [知乎：Android开发，开始一个项目前，做好哪些准备可以事半功倍？](https://www.zhihu.com/question/37433825)
 - [知乎：Android开发中，有哪些坑需要注意？](https://www.zhihu.com/question/27818921)
+- [程序员怎样才能写出一篇好的博客或者技术文章](http://t.cn/RGOjHCQ)
 
 
 ## Android新特性
