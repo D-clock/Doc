@@ -2,10 +2,13 @@
 
 自己写了一些平日里的开发总结，也把一些很难得的文章链接收藏进来。
 
-## 最新更新 （编辑于2016-02-29）
+## 最新更新 （编辑于2016-05-18）
 
-- **Android -> 性能优化** ，新增文章：[携程App的网络性能优化实践](http://t.cn/RGOpDEG)
-- **Android -> 个人收藏** ，新增文章：[程序员怎样才能写出一篇好的博客或者技术文章](http://t.cn/RGOjHCQ)
+**Git** 下新增以下三篇：
+
+- [创建Pull Request](https://github.com/geeeeeeeeek/git-recipes/wiki/3.3-%E5%88%9B%E5%BB%BAPull-Request)
+- [github的pull request是指什么意思？](https://www.zhihu.com/question/21682976/answer/79489643)
+- [如何同步 Github fork 出来的分支](http://jinlong.github.io/2015/10/12/syncing-a-fork/)
 
 
 ## 目录

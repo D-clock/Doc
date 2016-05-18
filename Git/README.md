@@ -10,6 +10,9 @@
 - [HTTPS和SSH方式的区别和使用](http://blog.csdn.net/d_clock/article/details/43762763)
 - [Submodule的应用（一）](http://blog.csdn.net/d_clock/article/details/43602699)
 - [Submodule的应用（二）](http://blog.csdn.net/d_clock/article/details/43730449)
+- [创建Pull Request](https://github.com/geeeeeeeeek/git-recipes/wiki/3.3-%E5%88%9B%E5%BB%BAPull-Request)
+- [github的pull request是指什么意思？](https://www.zhihu.com/question/21682976/answer/79489643)
+- [如何同步 Github fork 出来的分支](http://jinlong.github.io/2015/10/12/syncing-a-fork/)
 
 
 **电子书**
